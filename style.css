@@ -1,0 +1,140 @@
+/* =====================
+   GENERAL
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 40px 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a1a2e;
+}
+
+/* =====================
+   FORM SECTION
+===================== */
+.form-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+  margin-bottom: 15px;
+  color: #1a1a2e;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.form-section input:focus {
+  outline: none;
+  border-color: #4361ee;
+}
+
+.form-section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #3a0ca3;
+}
+
+/* =====================
+   TABLE SECTION
+===================== */
+.table-section {
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-section h2 {
+  margin-bottom: 15px;
+  color: #1a1a2e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #4361ee;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #c1121f;
+}
+
+/* =====================
+   AVERAGE SECTION
+===================== */
+.average-section {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.average-section h2 {
+  color: #1a1a2e;
+}
+
+#averageGrade {
+  color: #4361ee;
+  font-weight: bold;
+}

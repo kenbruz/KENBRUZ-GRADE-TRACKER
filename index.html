@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grade Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <h1>Student Grade Tracker</h1>
+
+    <!-- STEP 1: The Form -->
+    <div class="form-section">
+      <input type="text" id="studentName" placeholder="e.g. Kenbruz" />
+<input type="number" id="studentGrade" placeholder="e.g. 70" />
+      <button id="addBtn">Add Student</button>
+
+      <!-- Error message (hidden until needed) -->
+      <p id="errorMsg" style="color: red; display: none;"></p>
+    </div>
+
+    <!-- STEP 2: Student Table -->
+    <div class="table-section">
+      <h2>Students</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Grade</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="studentList">
+          <!-- Students will appear here dynamically -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- STEP 3: Average Grade Display -->
+    <div class="average-section">
+      <h2>Average Grade: <span id="averageGrade">0</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
